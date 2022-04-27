@@ -1,0 +1,9 @@
+// 提示文件帮助 Visual Studio IDE 解释 Visual C++ 标识符,
+// 如函数和宏的名称。
+// 有关详细信息，请参见 https://go.microsoft.com/fwlink/?linkid=865984
+#define BEGIN_MESSAGE_MAP(theClass, baseClass) PTM_WARNING_DISABLE const AFX_MSGMAP* theClass::GetMessageMap() const { return GetThisMessageMap(); } const AFX_MSGMAP* PASCAL theClass::GetThisMessageMap() { typedef theClass ThisClass; typedef baseClass TheBaseClass; __pragma(warning(push)) __pragma(warning(disable: 4640)) static const AFX_MSGMAP_ENTRY _messageEntries[] = {
+// 提示文件帮助 Visual Studio IDE 解释 Visual C++ 标识符,
+// 如函数和宏的名称。
+// 有关详细信息，请参见 https://go.microsoft.com/fwlink/?linkid=865984
+#define ON_COMMAND(id, memberFxn) { WM_COMMAND, CN_COMMAND, (WORD)id, (WORD)id, AfxSigCmd_v, static_cast<AFX_PMSG> (memberFxn) },
+#define ON_MESSAGE(message, memberFxn) { message, 0, 0, 0, AfxSig_lwl, (AFX_PMSG)(AFX_PMSGW) (static_cast< LRESULT (AFX_MSG_CALL CWnd::*)(WPARAM, LPARAM) > (memberFxn)) },

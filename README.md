@@ -27,3 +27,6 @@ U盘小偷 MFC版
 
 # 预计增加功能
 - 恶搞老师U盘，放一些奇奇怪怪东西进去
+
+# 开放源代码许可
+本仓库使用`Apache License`许可证，您必须在遵守`Apache License`的同时在用户使用的明显处（例如主界面中）标注原作者信息和原仓库，例如`原作者Gingmzmzx 仓库Gingmzmzx/FDiskThief`

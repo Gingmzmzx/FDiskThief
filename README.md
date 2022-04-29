@@ -29,6 +29,7 @@ U盘小偷 MFC版
 那是因为我们班里的电脑不输入教职工密码无法上网。
 ### 恶搞如何自定义
 `FDiskThiefDlg.cpp`的第**21、22**行，`filesTitle`为文件标题（带后缀）`filesContent`为文件内容，注意与上面的`filesTitle`一一对应！
+请注意内容必须是使用_T("")将字符转换为宽字节的Unicode编码！
 
 # 开放源代码许可
 本仓库使用`Apache License`许可证，您必须在遵守`Apache License`的同时在用户使用的明显处（例如主界面中）标注原作者信息和原仓库，例如`原作者Gingmzmzx 仓库Gingmzmzx/FDiskThief`

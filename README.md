@@ -11,7 +11,7 @@ U盘小偷 MFC版
 - 开机自启
 - 托盘图标，右键显隐窗口，左键彩蛋
 - 防止发现，启动程序自动隐藏窗口
-- 恶搞老师U盘，往里面放一些奇怪的文件（在代码中自定义）
+- 恶搞老师U盘，往里面放一些奇怪的文件，详见[恶搞如何自定义](https://github.com/Gingmzmzx/FDiskThief#%E6%81%B6%E6%90%9E%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89)
 
 # 使用方法：
 双击打开exe就可以了。  
@@ -30,6 +30,9 @@ U盘小偷 MFC版
 ### 恶搞如何自定义
 `FDiskThiefDlg.cpp`的第**21、22**行，`filesTitle`为文件标题（带后缀）`filesContent`为文件内容，注意与上面的`filesTitle`一一对应！
 **请注意内容必须是使用_T("")将字符转换为宽字节的Unicode编码！**
+
+# 存在问题
+- 好像气泡通知（右下角）目前只适用于Windows10？（我手头的设备只有`Windows server 2016`和`Windows11`，`Windows server 2016`可以正常显示，但是`Windows11`不行）
 
 # 开放源代码许可
 本仓库使用`Apache License`许可证，您必须在遵守`Apache License`的同时在用户使用的明显处（例如主界面中）标注原作者信息和原仓库，例如`原作者Gingmzmzx 仓库Gingmzmzx/FDiskThief`
